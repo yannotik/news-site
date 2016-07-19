@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="/owl.carousel.css">
+<script src="/owl.carousel.js"></script>
+<script src="/owl.carousel.min.js"></script>
+
+    <script>
+	    jQuery.noConflict(); (function($) {
+		    $(document).ready(function() {
+
+			    $("#owl-demo1").owlCarousel({
+
+			        navigation : true,
+				    autoPlay: 3000, //Set AutoPlay to 3 seconds
+	 				items : 4,
+				    itemsDesktop : [768,3],
+				    itemsDesktopSmall : [500,2]
+			    });
+			});
+
+		})(jQuery);
+	</script>
+
+
+
